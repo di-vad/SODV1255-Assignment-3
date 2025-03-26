@@ -1,0 +1,34 @@
+﻿@model libraryManagementSystem.Models.Borrowing
+@{
+    ViewData["Title"] = "Create Borrowing";
+    var books = ViewBag.Books as IEnumerable<libraryManagementSystem.Models.Book>;
+    var readers = ViewBag.Readers as IEnumerable<libraryManagementSystem.Models.Reader>;
+}
+
+<h2>Create a new Borrowing</h2>
+<form asp-action="Create" method="post">
+    <label>Book:</label>
+    <select asp-for="BookId">
+        @foreach (var b in books)
+        {
+            <option value="@b.Id">@b.Name</option>
+        }
+    </select>
+    <br />
+
+    <label>Reader:</label>
+    <select asp-for="ReaderId">
+        @foreach (var r in readers)
+        {
+            <option value="@r.Id">@r.Name</option>
+        }
+    </select>
+    <br />
+
+
+    <button type="submit">Create Borrow</button>
+</form>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

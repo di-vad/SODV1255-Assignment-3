@@ -1,0 +1,28 @@
+﻿@model libraryManagementSystem.Models.Borrowing
+@{
+    ViewData["Title"] = "Borrowing Details";
+}
+
+<h2>Borrowing Details</h2>
+
+<dl>
+    <dt>ID</dt>
+    <dd>@Model.Id</dd>
+
+    <dt>Book ID</dt>
+    <dd>@Model.BookId</dd>
+
+    <dt>Reader ID</dt>
+    <dd>@Model.ReaderId</dd>
+
+    <dt>Borrow Date</dt>
+    <dd>@Model.BorrowDate.ToShortDateString()</dd>
+
+    <dt>Return Date</dt>
+    <dd>@(Model.ReturnDate.HasValue ? Model.ReturnDate.Value.ToShortDateString() : "Not Returned")</dd>
+</dl>
+
+<p>
+    <a asp-action="Index">Back to List</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+</p>

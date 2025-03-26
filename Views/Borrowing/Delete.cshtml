@@ -1,0 +1,30 @@
+﻿@model libraryManagementSystem.Models.Borrowing
+@{
+    ViewData["Title"] = "Delete Borrowing";
+}
+
+<h2>Delete Borrowing</h2>
+
+<p>Are you sure you want to delete this borrowing record?</p>
+<dl>
+    <dt>ID</dt>
+    <dd>@Model.Id</dd>
+
+    <dt>Book ID</dt>
+    <dd>@Model.BookId</dd>
+
+    <dt>Reader ID</dt>
+    <dd>@Model.ReaderId</dd>
+
+    <dt>Borrow Date</dt>
+    <dd>@Model.BorrowDate.ToShortDateString()</dd>
+
+    <dt>Return Date</dt>
+    <dd>@(Model.ReturnDate.HasValue ? Model.ReturnDate.Value.ToShortDateString() : "Not Returned")</dd>
+</dl>
+
+<form asp-action="Delete" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit">Delete</button>
+    <a asp-action="Index">Cancel</a>
+</form>

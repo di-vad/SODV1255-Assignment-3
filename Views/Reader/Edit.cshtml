@@ -1,0 +1,27 @@
+﻿@model libraryManagementSystem.Models.Reader
+@{
+    ViewData["Title"] = "Edit Reader";
+}
+
+<h2>Edit Reader</h2>
+
+<form asp-action="Edit" method="post">
+    <input asp-for="Id" type="hidden" />
+    <div>
+        <label>Name:</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Email:</label>
+        <input asp-for="Email" />
+    </div>
+    <div>
+        <label>Phone Number:</label>
+        <input asp-for="PhoneNumber" />
+    </div>
+    <button type="submit">Save</button>
+</form>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

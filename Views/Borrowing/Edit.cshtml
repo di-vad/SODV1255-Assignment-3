@@ -1,0 +1,52 @@
+﻿@model libraryManagementSystem.Models.Borrowing
+@{
+    ViewData["Title"] = "Edit Borrowing";
+    var books = ViewBag.Books as IEnumerable<libraryManagementSystem.Models.Book>;
+    var readers = ViewBag.Readers as IEnumerable<libraryManagementSystem.Models.Reader>;
+}
+
+<h2>Edit Borrowing</h2>
+
+<form asp-action="Edit" method="post">
+    <input asp-for="Id" type="hidden" />
+
+    <div>
+        <label>Book:</label>
+        <select asp-for="BookId">
+            @foreach (var b in books)
+            {
+                <option value="@b.Id" selected="@(b.Id == Model.BookId)">
+                    @b.Name
+                </option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Reader:</label>
+        <select asp-for="ReaderId">
+            @foreach (var r in readers)
+            {
+                <option value="@r.Id" selected="@(r.Id == Model.ReaderId)">
+                    @r.Name
+                </option>
+            }
+        </select>
+    </div>
+
+    <div>
+        <label>Borrow Date:</label>
+        <input asp-for="BorrowDate" type="date" />
+    </div>
+
+    <div>
+        <label>Return Date:</label>
+        <input asp-for="ReturnDate" type="date" />
+    </div>
+
+    <button type="submit">Save</button>
+</form>
+
+<p>
+    <a asp-action="Index">Back to List</a>
+</p>

@@ -1,0 +1,25 @@
+﻿@model libraryManagementSystem.Models.Reader
+@{
+    ViewData["Title"] = "Reader Details";
+}
+
+<h2>Reader Details</h2>
+
+<dl>
+    <dt>ID</dt>
+    <dd>@Model.Id</dd>
+
+    <dt>Name</dt>
+    <dd>@Model.Name</dd>
+
+    <dt>Email</dt>
+    <dd>@Model.Email</dd>
+
+    <dt>Phone</dt>
+    <dd>@Model.PhoneNumber</dd>
+</dl>
+
+<p>
+    <a asp-action="Index">Back to List</a> |
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+</p>

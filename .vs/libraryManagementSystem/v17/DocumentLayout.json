@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|c:\\users\\yes\\desktop\\librarymanagementsystem\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|c:\\users\\yes\\desktop\\librarymanagementsystem\\views\\borrowing\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|solutionrelative:views\\borrowing\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|c:\\users\\yes\\desktop\\librarymanagementsystem\\views\\reader\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|solutionrelative:views\\reader\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|c:\\users\\yes\\desktop\\librarymanagementsystem\\views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1A963E54-6258-4782-8351-C34551FB946E}|libraryManagementSystem.csproj|solutionrelative:views\\book\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Borrowing\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Borrowing\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Borrowing\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Borrowing\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T03:53:39.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Reader\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reader\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Reader\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Reader\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T03:53:25.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Book\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Book\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Views\\Book\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Book\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-26T03:52:44.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\yes\\Desktop\\libraryManagementSystem\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T03:45:54.481Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
